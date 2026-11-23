@@ -28,14 +28,14 @@ Plain code for the rules, an LLM only where the rules can't read the input, and 
       <a href="https://bavlywilliam.github.io/Bavly-William-Portfolio/case-whatsapp.html"><img src="https://bavlywilliam.github.io/Bavly-William-Portfolio/assets/img/readme/card-whatsapp.webp" width="100%" alt="WhatsApp purchase logger: from the WhatsApp group through the template parser, a Gemini fallback and the validator to Google Sheets"></a>
       <h3>WhatsApp purchase logger</h3>
       <p><img src="https://img.shields.io/badge/Working%20build-101B35?style=flat-square" alt="Status: working build"> &nbsp;<sub>Python · Selenium · Google Sheets API · Gemini API · pytest</sub></p>
-      <p>Turns a small business's WhatsApp purchase messages into Google Sheets rows. A rule-based parser reads the template; Gemini reads only what the rules can't, and its answer passes the same validator.</p>
+      <p>Turns a small business's WhatsApp purchase messages into Google Sheets rows, with an analysis tab for spending against budget. A rule-based parser reads the template; Gemini reads only what the rules can't, and its answer passes the same validator.</p>
       <p><a href="https://bavlywilliam.github.io/Bavly-William-Portfolio/case-whatsapp.html"><b>Case study</b></a> · <a href="https://github.com/BavlyWilliam/Whatsapp-accounting-automation">Code</a> · <a href="https://www.youtube.com/shorts/1Zm951PmB_0">49-second video</a></p>
     </td>
     <td width="50%" valign="top">
       <a href="https://bavlywilliam.github.io/Bavly-William-Portfolio/case-parla-system.html"><img src="https://bavlywilliam.github.io/Bavly-William-Portfolio/assets/img/readme/card-parla-system.webp" width="100%" alt="Parla Italiano case study: one request, a whole system"></a>
       <h3>Parla Italiano: marketing and AI sales assistant</h3>
-      <p><img src="https://img.shields.io/badge/Live-2C6B52?style=flat-square" alt="Status: live"> &nbsp;<sub>Python · FastAPI · Messenger Platform · Gemini API</sub></p>
-      <p>Audited 100+ sales chats, then built a Messenger assistant that answers 330+ tested scenarios without a model and sends only the rest to Gemini, with price guardrails and a human handoff.</p>
+      <p><img src="https://img.shields.io/badge/Live-2C6B52?style=flat-square" alt="Status: live"> &nbsp;<sub>Python · FastAPI · Messenger Platform · Gemini and Groq APIs · pytest</sub></p>
+      <p>Audited 100+ sales chats, then built a Messenger assistant whose scripted answers, checked by 330+ automated tests, handle the predictable questions without a model. Only the rest goes to Gemini (Groq as backup), with price guardrails and a human handoff.</p>
       <p><a href="https://bavlywilliam.github.io/Bavly-William-Portfolio/case-parla-system.html"><b>Case study</b></a> · <a href="https://www.youtube.com/watch?v=8Q2z6JJwGhY">Video</a></p>
     </td>
   </tr>
@@ -61,7 +61,7 @@ Also: [AI model orchestrator](https://github.com/BavlyWilliam/AI-Orchestrator) (
 
 ## At work
 
-Relationship Manager at Concentrix on the Microsoft account. For my own team I built a Copilot Studio case-taxonomy agent, a team knowledge agent, fair case assignment in Excel VBA, a Power BI reporting model, and a JavaScript export that cut a recurring report from about 2 hours to under 10 minutes. [Details, without internal data](https://bavlywilliam.github.io/Bavly-William-Portfolio/#work).
+Relationship Manager at Concentrix on the Microsoft account. For my own team I built a Copilot Studio case-taxonomy agent, a team knowledge agent, fair case assignment in Excel VBA, a Power BI reporting model, Power Automate flows for request routing and follow-ups, and a JavaScript export that cut a recurring report from about 2 hours to under 10 minutes. [Details, without internal data](https://bavlywilliam.github.io/Bavly-William-Portfolio/#work).
 
 ## How I work
 
